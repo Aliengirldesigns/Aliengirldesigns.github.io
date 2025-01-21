@@ -1,0 +1,46 @@
+body {
+      background-color: #e49bb859;
+}
+/* Color Section */
+#p1 {
+    color: #e8194a ;
+    font-size: larger;
+}
+#p2 { 
+    color:#69075c ;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: #fd07922f;
+}
+#p3 {
+    color: #6fa8f2 ;
+    font-family: cursive;
+    text-decoration: underline;
+}
+#pretty { 
+    padding: 50vh 10%;
+}
+#s1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(168, 22, 22);
+}
+#s2 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+}
+#s3 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 17px;
+    background-color: rgb(255, 240, 127);
+}
+#s4 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 17px;
+    background-color: rgb(255, 240, 127);
+}
