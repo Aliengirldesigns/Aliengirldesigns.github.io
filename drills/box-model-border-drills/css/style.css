@@ -108,3 +108,8 @@ p {
     margin: 36px;
     padding: 0px;
 }
+.d1-container {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
