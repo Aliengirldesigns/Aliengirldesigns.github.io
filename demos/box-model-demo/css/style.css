@@ -30,8 +30,15 @@ div {
     Two Values: First Value applies to the Top-Left Corner.
     Second Value Applies to the Bottom-Right Corner and 
     the Bottom-Left Corner.
+    
+    Three Values: First value applies to the top-left corner.
+    Second value applies to the top-right AND bottom-left corner.
+    Third value applies to the bottom-right corner.
 
-
+    Four Values: First values applies to the top-left corner.
+    Second value applies to the top-right corner.
+    Third value applies to the bottom-right corner.
+    Fourth value applies to the bottom-left corner.
 */
     border-radius: 4px 50px 5px;
 }
