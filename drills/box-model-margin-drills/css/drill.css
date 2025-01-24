@@ -41,6 +41,6 @@
 #d7-container {
     text-align: center;
 }
-#d7-div1, #d7-div2, #d7-div3 {
-    margin: 24px;
+.d7-div {
+    margin: 12px 24px;
 }
