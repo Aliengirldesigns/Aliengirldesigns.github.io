@@ -1,8 +1,50 @@
-div#navbar{
+div#navbar {
     background-color: rgb(81, 114, 156);
     padding: 24px;
     text-align: center;
 }
-div a {
+div#navbar a {
+    color: pink;
+    margin: 10px;
+    transition: font size 0.5s;
+}
+div#navbar > a {
     color: white;
+}
+div#navbar a:hover {
+    font-size: 20px;
+    color: black;
+}
+p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    a {
+        color: brown;
+        font-weight: bold;
+        &:hover {
+            color: blueviolet;
+        }
+    }
+}
+p.warning a {
+    color: rgb(237, 135, 0);
+}
+/* Lets say basic HTML Element selectors has a specifity level of  0-0-1
+   eah additional Basic HTML Element will add 0-0-1
+
+   If an ID is involved , a single ID level is set to be 2.
+   So,for each Id involved is -2
+
+   If a class is involved, a single class is set to 1.
+   So, for each class that is +1.
+
+ */
+ul {
+    color: rgb(59, 39, 103);
+}
+li a {
+    color: rgb(188, 25, 122);
+}
+ul li + li {
+    color: palevioletred;
 }
