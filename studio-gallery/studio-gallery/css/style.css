@@ -1,0 +1,17 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#frame-1 {
+    border: 10px outset rgb(57, 56, 56);
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #555;
+}
