@@ -1,0 +1,25 @@
+.absolute-heading {
+    font-size: 36px;
+}
+.absolute-paragraph {
+    font-size: 18px;
+}
+.relative-heading {
+    font-size: 5vw;
+}
+.absolute-paragraph {
+    font-size: 2.5vw;
+}
+.absolute-image {
+    width: 350px;
+}
+.relative-image {
+    width: 100%;
+}
+.inner-container{
+    border: palevioletred solid 3px;
+}
+.inner-container p, .inner-container img {
+    width: 48%;
+    display: inline-block;
+}
