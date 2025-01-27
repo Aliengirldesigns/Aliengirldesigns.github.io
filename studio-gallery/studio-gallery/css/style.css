@@ -11,7 +11,11 @@ img {
     object-fit: cover;
 }
 #frame-1 {
-    border: 10px outset rgb(57, 56, 56);
+    border: 10px outset rgb(60, 59, 59);
     margin: 70px 12px 0px;
     box-shadow: -2px 2px 2px #555;
+}
+#frame-1 img {
+    display: block;
+    width: 100px;
 }
