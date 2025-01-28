@@ -10,7 +10,7 @@
 #frame-1 {
     border: 10px outset rgb(60, 59, 59);
     margin: 70px 12px 0px;
-    box-shadow: -2px 2px 2px #555;
+    box-shadow: -5px 5px 10px #131313;
 }
 #frame-1 img {
     display: block;
@@ -25,11 +25,19 @@
     object-fit: cover;
 }
 #frame-2 {
-    border: 10px inset rgb(25, 29, 51);
-    margin: 20px 5px 0px;
-    box-shadow: 5px 5px 6px;
+    border: 9px inset rgb(25, 29, 51);
+    margin: 75px 5px 0px;
+    box-shadow: -5px 5px 10px;
 }
 #frame-2 div {
-    padding: 10px;
-    background-color: blanchedalmond;
+    padding: 10px 5px 5px;
+    background-color: whitesmoke;
 }
+#frame-3 {
+    border: 5px rgb(58, 34, 43) solid;
+    margin: 50px 10px 0px ;
+    background-color: rgb(212, 199, 175);
+    font-family: fantasy;
+    font-size: 15px;
+}
+
