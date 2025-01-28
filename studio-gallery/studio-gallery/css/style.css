@@ -6,10 +6,7 @@
 
     Good luck, and have fun!
 */
-img {
-    width: 100%;
-    object-fit: cover;
-}
+
 #frame-1 {
     border: 10px outset rgb(60, 59, 59);
     margin: 70px 12px 0px;
@@ -18,4 +15,21 @@ img {
 #frame-1 img {
     display: block;
     width: 100px;
+}
+#frame-1 div {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+#frame-2 img {
+    width: 75px;
+    object-fit: cover;
+}
+#frame-2 {
+    border: 10px inset rgb(25, 29, 51);
+    margin: 20px 5px 0px;
+    box-shadow: 5px 5px 6px;
+}
+#frame-2 div {
+    padding: 10px;
+    background-color: blanchedalmond;
 }
