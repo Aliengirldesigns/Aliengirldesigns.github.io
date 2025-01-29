@@ -25,3 +25,8 @@ body {
     max-width: 1440px;
     margin: 0px auto;
 }
+.light-container {
+    background-color: rgb(142, 185, 142);
+    padding: 36px 0px;
+}
+
