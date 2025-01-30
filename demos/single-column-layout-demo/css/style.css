@@ -20,7 +20,6 @@ body {
     margin value must be set to auto.
  */
 .single-column {
-    background-color: rgb(142, 185, 142);
     width: 80%;
     max-width: 1440px;
     margin: 0px auto;
