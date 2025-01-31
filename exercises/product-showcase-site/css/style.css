@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:sans-serif;
 }
 .single-column {
     width: 85%;
@@ -33,6 +33,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+#miltonian {
+    font-family: miltonian tattoo;
 }
 
 
