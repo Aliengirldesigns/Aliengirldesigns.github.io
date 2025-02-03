@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+/* 
+    The "gap" property is a flexbox container and grid container property that 
+    allows you to set how much space you want between each item 
+    in both row and column.
+
+    1 value sets the same amount of space for row gap and column gap
+
+    2 value sets the first value to be the row gap and 
+    the second value to be the column gap
+ */
+#two-columns {
+    display: flex;
+}
+#side-bar {
+    background-color: rgb(208, 179, 235);
+    width: 250px;
+    padding: 25px;
+    border-right: solid 3px rgb(85, 11, 85);
+    h2 {
+        border-bottom: 1px solid rgb(85, 11, 85) ;
+        padding-bottom: 5px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+    ul a {
+        color: #111;
+        text-decoration: none;
+    }
+    ul li {
+        padding: 4px 0px;
+    }
+}
+#main {
+    background-color: rgb(248, 250, 178);
+    flex: 1;
+    padding: 24px;
+}
