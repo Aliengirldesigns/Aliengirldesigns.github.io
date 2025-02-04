@@ -34,6 +34,7 @@
 }
 
 /* Drill 5 - Write your code solution below */
+
 #container-d5 {
     display: grid;
     grid-template-columns: 1fr 2fr;
