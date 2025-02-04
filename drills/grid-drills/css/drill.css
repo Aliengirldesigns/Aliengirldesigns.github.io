@@ -21,19 +21,53 @@
 #container-d4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "c1 c2 c3";
+    grid-template-areas: "column-2 column-3 column-1";
 }
-#d4-c1 { 
-    grid-area: c1;
+#d4-cell1 {
+    grid-area: column-1;
 }
-#d4-c2 {
-    grid-area: c2;
+#d4-cell2 {
+    grid-area: column-2;
 }
-#d4-c3 {
-    grid-area: c3;
+#d4-cell3 {
+    grid-area: column-3;
 }
-/* Drill 5 - Write your code solution below */
 
+/* Drill 5 - Write your code solution below */
+#container-d5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "box-1 box1"
+        "box-2 box3"
+    ;
+}
+#d5-cell1 {
+    grid-area: box-1;
+}
+#d5-cell2 {
+    grid-area: box-3;
+}
+#d5-cell3 {
+    grid-area: box-2;
+}
 
 /* Drill 6 - Write your code solution below */
 
+#container-d6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "box-1 box-2"
+        "box-3 box-3"
+    ;
+}
+#d6-cell1 {
+    grid-area: box-1;
+}
+#d6-cell2 {
+    grid-area: box-2;
+}
+#d6-cell3 {
+    grid-area: box-3;
+}
