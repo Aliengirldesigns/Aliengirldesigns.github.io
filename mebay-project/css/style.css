@@ -23,7 +23,7 @@ body {
 #column-2 h3 {
     display: inline-block;
     padding: 2px;
-    background-color: rgb(238, 3, 50);
+    background-color: rgba(238, 3, 3, 0.812);
     text-align: left;
 }
 #buy {
@@ -52,4 +52,8 @@ body {
 }
 #buttons {
     padding: 10px 24px 10px;
+}
+#mebay {
+    text-align: center;
+    color: darkorange;
 }
