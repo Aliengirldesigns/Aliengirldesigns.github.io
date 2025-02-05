@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 .single-column {
     width: 85%;
@@ -34,8 +34,12 @@ img {
     margin-right: auto;
     width: 80%;
 }
-#miltonian {
-    font-family: miltonian tattoo;
+.single-column1 img {
+    border: #BBACF2 solid 5px;
 }
-
-
+.single-column2 img {
+    border: #000000 solid 5px;
+}
+.single-column3 img {
+    border: #a3e197 solid 5px;
+}
