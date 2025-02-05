@@ -22,9 +22,11 @@ body {
 }
 #column-2 h3 {
     display: inline-block;
-    padding: 2px;
-    background-color: rgba(238, 3, 3, 0.812);
+    padding: 3px 5px;
+    background-color: crimson;
     text-align: left;
+    color: white;
+    border-radius: 2px;
 }
 #buy {
     background-color: rgb(63, 183, 253);
@@ -54,6 +56,23 @@ body {
     padding: 10px 24px 10px;
 }
 #mebay {
-    text-align: center;
-    color: darkorange;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 36px;
+}
+#m {
+    color: rgb(128, 23, 166);
+}
+#e {
+    color: red;
+}
+#b {
+    color: rgb(21, 118, 182);
+}
+#a {
+    color: rgb(241, 196, 32);
+}
+#y {
+    color: rgb(63, 166, 63);
 }
