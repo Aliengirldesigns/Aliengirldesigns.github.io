@@ -14,7 +14,7 @@ body {
     margin: 0px;
 }
 .card-style-3 {
-    margin: 12px;
+    margin: 16px;
     border: 16px Solid gold;
     border-radius: 12px;
     width: 350px;
@@ -46,7 +46,7 @@ h2 {
     font-size: 18px;
 }
 .details {
-    margin: 5px 15px;
+    margin-top: 4px;
     text-align: center;
     font-style: italic;
     font-size: 12px;
@@ -63,18 +63,17 @@ h2 {
     font-size: 16px;
 }
 .attack {
-   display: flex;
-   flex: 1;
-   align-items: center;
-   padding: 5px 10px 5px;
-   margin-top: 18px;
-   margin-bottom: 12px;
-   border-bottom: solid black 2px;
-   font-size: 14px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+    margin: 8px 0px;
+    border-bottom: black 2px solid;
 }
 .data {
     border: goldenrod solid 2px;
-    padding: 2px 2px 0px 2px;
+    padding: 2px 8px;
     font-size: 12px;
     font-weight: bold;
     margin-top: 75px;
