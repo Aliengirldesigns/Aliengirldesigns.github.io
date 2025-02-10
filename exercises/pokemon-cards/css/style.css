@@ -15,15 +15,15 @@ body {
 }
 .card-style-3 {
     margin: 12px;
-    background-color: rgb(241, 246, 216);
-    border: 18px Solid rgb(255, 217, 0);
+    border: 16px Solid gold;
     border-radius: 12px;
     width: 350px;
-    padding: 10px;
+    padding: 16px;
 }
 .pokemon-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 h2 {
     font-size: 28px;
@@ -32,7 +32,7 @@ h2 {
     margin-left: 12px;
 }
 .card-style-3 img {
-    width: 90%;
+    width: 100%;
     border: 5px Solid rgb(226, 173, 0);
     border-radius: 2px;
     display: block;
@@ -64,7 +64,7 @@ h2 {
 }
 .attack {
    display: flex;
-   justify-content: space-between;
+   flex: 1;
    align-items: center;
    padding: 5px 10px 5px;
    margin-top: 18px;
