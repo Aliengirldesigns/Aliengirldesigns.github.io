@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    height: 100vh;
+    background-image: url("../images/lizard.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+h1 {
+    color: honeydew;
+    font-size: 120px;
+    padding-left: 100px;
+    position: absolute;
+    left: 20%;
+}
