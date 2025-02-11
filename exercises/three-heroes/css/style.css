@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    height: 100vh;
+    background-image: url("../images/mac.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 36px;
+}
+#hero-1 h2 {
+    font-size: 50px;
+    margin-left: 36px;
+}
+#hero-1 h4 {
+    font-size: 24px;
+    margin-left: 36px;
+}
+#hero-1 a {
+    margin-left: 36px;
+    color: rgb(166, 10, 10);
+    font-weight: bold;
+}
+#hero-2 {
+    height: 100vh;
+    background-image: url("../images/coca-cola.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-2 .hero-content {
+    color: white;
+    text-align: center;
+}
+#hero-2 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+#hero-2 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+#hero-2 a {
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgb(213, 8, 8);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+#hero-3 {
+    background-image: url("../images/v-day.jpg");
+    height: 100vh;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 36px;
+    align-items: end;
+}
+#hero-3 h2 {
+    font-size: 72px;
+    color: rgb(110, 0, 37);
+    margin: 0px;
+}
+#hero-3 h4 {
+    font-size: 36px;
+    color: white;
+    margin: 0px;
+    margin-top: 14px;
+}
+#hero-3 a {
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgb(227, 0, 72);
+    text-decoration: none;
+    padding: 18px;
+    margin-top: 36px;
+    width: max-content;
+    font-weight: bold;
+    border-radius: 12px;
+}
+#hero-3 div {
+    text-align: center;
+}
