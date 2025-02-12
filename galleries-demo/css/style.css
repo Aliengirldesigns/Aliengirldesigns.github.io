@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+/* Basic grid style for both Portrait and Landscape  */
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 6px;
+    border: 10px solid rgb(238, 231, 145);
+
+}
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+/* Mixed Gallery Style */
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    padding: 24px;
+    gap: 6px;
+    border: 10px solid rgb(145, 179, 238);
+}
+.cropped-grid-gallery img {
+    width: 100%;
+    height: 100%;
+}
+.cropped-grid-gallery img:first-child {
+    object-position: bottom;
+}
+
+/* Horizontal Mansory Gallery Style */
+.horizontal-mansory-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.horizontal-mansory-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* Vertical Mansory Gallery Style */
+.vertical-mansory-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+.vertical-mansory-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+
