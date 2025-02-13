@@ -1,9 +1,12 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Major+Mono+Display&display=swap');
+</style>
+/* space */
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
     background-color: black;
 }
 #hero-1 {
@@ -21,6 +24,7 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.63);
     padding: 36px;
+    font-family: "Major Mono Display", serif;
 }
 .hero-content a {
     font-size: 18px;
@@ -62,6 +66,7 @@ body {
     text-align: center;
     position: relative;
     margin-top: 72px;
+    font-family: "Major Mono Display", serif;
 }
 .cards h2 {
     font-size: 36px;
@@ -69,8 +74,7 @@ body {
     color: rgb(255, 255, 255);
 }
 .cards a {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+    color: white;
     font-size: 17px;
     background-color: #2F1B59;
     padding: 12px;
@@ -80,12 +84,14 @@ body {
     width: 100%;
     box-shadow: 1px 2px 20px rgb(0, 0, 0);
     margin-top: 48px;
+    font-family: ;
 }
 .cards:hover a {
     background-color: #B091F2;
     color: black;
     transition: 0.5s;
-    box-shadow: white 2px 5px 24px;
+    box-shadow: white 2px 2px 24px;
+    font-weight: bold;
 }
 .cards img {
     width: 100%;
