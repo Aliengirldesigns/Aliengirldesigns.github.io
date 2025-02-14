@@ -39,3 +39,17 @@ body {
     margin: 48px auto;
     font-size: 24px;
 }
+#navbar-btm {
+    background: linear-gradient(to bottom, #DEE872, #a3ae5f);
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-btm a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 24px;
+}
+#header {
+    position: sticky;
+    top: 0px;
+}
