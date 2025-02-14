@@ -37,6 +37,11 @@ body {
     top: 0px;
     padding: 18px;
 }
-
+#client-2 .btn {
+    background-color: #D83C1A;
+    color: white;
+    padding: 16px 24px;
+    text-decoration: none;
+}
 
 
