@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background: linear-gradient(to bottom, #96b84d, #718C37);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 200px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar .btn {
+    color: #718C37;
+    background-color: white;
+    padding: 16px 24px;
+    border-radius: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
