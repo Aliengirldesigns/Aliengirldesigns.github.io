@@ -52,3 +52,12 @@ img {
         flex-direction: column;
     }
 }
+@media screen and (max-width:740px) and (min-width: 481px) {
+    body {
+        background-color: rgb(167, 132, 200);
+    }
+    #nav {
+        flex-direction: row;
+        flex-wrap:  wrap;
+    }
+}
