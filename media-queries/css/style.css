@@ -45,7 +45,7 @@ img {
 }
 .content h1 {
     color: rgb(255, 153, 0);
-    font-size: 48px;
+    font-size: 28px;
 }
 @media screen and (max-width:480px) {
     #nav {
