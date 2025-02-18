@@ -10,10 +10,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #nav a {
     color: white;
     text-decoration: none;
     padding: 20px;
     font-size: 18px;
+}
+@media screen and (max-width:480px) {
+    #nav {
+        flex-direction: column;
+    }
 }
