@@ -41,7 +41,7 @@ img {
     border-radius: 24px;
 }
 .image-container {
-    height: 400px;
+    height: 300px;
 }
 .content h1 {
     color: rgb(255, 153, 0);
@@ -54,7 +54,7 @@ img {
 }
 @media screen and (max-width:740px) and (min-width: 481px) {
     body {
-        background-color: rgb(167, 132, 200);
+        background-color: rgba(98, 20, 85, 0.778);
     }
     #nav {
         flex-direction: row;
