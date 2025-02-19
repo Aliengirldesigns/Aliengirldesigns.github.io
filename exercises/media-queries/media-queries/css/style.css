@@ -212,8 +212,7 @@ a {
 
 /* TODO: Add your media query code here */
 @media screen and (max-width:768px) {
-    #nav-links {
-        display: flex;
+    #nav, #nav-links {
         flex-direction: column;
         align-items: center;
     }
@@ -224,8 +223,19 @@ a {
         font-size: 28px;
     }
     .three-cards {
-        display: flex;
         flex-direction: column;
         padding: 24px;
+    }
+    .two-cards {
+        flex-direction: column;
+        padding: 24px;
+    }
+    .two-cards a {
+        display: flex;
+        padding: 24px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
 }
