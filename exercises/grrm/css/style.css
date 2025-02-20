@@ -455,11 +455,12 @@ body {
     #nav {
         flex-wrap: wrap;
     }
-    #grid-layout h1 {
+    #header h1 {
         font-size: 48px;
     }
-    #grid-layout a {
-        width: 200px;
+    #nav a {
+        flex: 190px;
+        border-bottom: 2px solid #222;
     }
 }
 @media screen and (max-width: 800px) {
@@ -479,23 +480,31 @@ body {
         ;
         gap: 18px;
     }
-    #shield-image {
+    #shield-image, form {
         display: none;
+    }
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #header h1 { 
+        font-size: 36px;
     }
     #nav {
         flex-wrap: wrap;
     }
-    #search-bar {
-        display: none;
+    #nav a {
+        flex: 150px;
+        border-bottom: 2px solid #222;
     }
-    #search-button {
-        display: none;
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
     }
-    #social-section {
-        display: none;
-    }
-    #grid-layout h1 {
-        text-align: center;
-    }
-
 }
