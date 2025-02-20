@@ -41,3 +41,50 @@ body {
 #card2:hover a {
     background-color: rgb(227, 208, 130);
 }
+#card3:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+#card3 .card-content {
+    transition:
+    opacity 1s,
+    visibility 1s;
+}
+#card4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+    opacity 0.5s,
+    visibility 0.5
+    transform 0.5;
+}
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+#card5{
+    position: relative;
+}
+#card5 .card-content {
+    position: absolute;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 3px black solid;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #0004;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+    opacity 1s,
+    visibility 1s,
+    transform 1s;
+}
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
