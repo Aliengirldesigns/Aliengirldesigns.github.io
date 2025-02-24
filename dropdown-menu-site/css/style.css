@@ -8,55 +8,60 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    background-color: rgb(101, 6, 6);
+    background-color: #A3A656;
 }
 #navbar a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 24px;
+    padding: 36px;
 }
 #navbar #logo {
     font-size: 36px;
     font-weight: bold;
     margin-right: auto;
-    padding-top: 13px;
-    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 13px;
 }
 .dropdown-container {
     position: relative;
 }
 .dropdown-menu {
     position: absolute;
-    background-color: rgb(220, 146, 9);
-    width: 200px;
+    background-color: #384001;
+    width: 150px;
     opacity: 0px;
     visibility: hidden;
     transform: translateY(-16px);
     transition: 
-    opacity 0.5s,
-    visibility 0.5s,
-    transform 0.5s;
+    opacity 0.7s,
+    visibility 0.7s,
+    transform 0.7s;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
 #navbar .dropdown-menu a:hover {
-    color: black;
+    color: rgba(255, 255, 255, 0.502);
     background-color: transparent;
 }
 #navbar a:hover {
-    background-color: blanchedalmond;
+    background-color: rgb(235, 213, 180);
     color: black;
 }
 #navbar #logo:hover {
     background-color: transparent;
-    color: rgba(255, 255, 255, 0.333);
+    color: rgba(255, 255, 255, 0.733);
 }
-.dropdown-container:hover i {
-    transform: rotate(180deg);
+#hero {
+    background-image: url("../images/volunteer.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.dropdown-container i {
-    transition: transform 1s;
-}
+
+
