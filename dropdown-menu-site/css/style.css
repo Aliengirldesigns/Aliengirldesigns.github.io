@@ -165,14 +165,11 @@ p {
     h1 {
         font-size: 24px;
     }
-    h3 {
-        font-size: 16px;
-    }
-    .card h3 {
-        font-size: 18px;
-    }
     h2 {
         font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
     }
     #navbar a {
         display: block;
@@ -187,6 +184,14 @@ p {
     #hero a {
         padding: 18px;
         font-size: 12px;
+    }
+    #draco h3 {
+        padding: 18px;
+        font-size: 18px;
+    }
+    #snowball h3 {
+        font-size: 18px;
+        padding: 18px;
     }
 }
 
