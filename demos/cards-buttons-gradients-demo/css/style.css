@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    
 }
 #centered-column {
     width: 90vw;
@@ -62,5 +63,6 @@ a {
     transition: 
         background-color 1s;
 }
+
 
 
