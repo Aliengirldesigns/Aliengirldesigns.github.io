@@ -158,5 +158,17 @@ h3 {
     #navbar {
         flex-direction: column;
     }
+    h1 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .card h3 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 20px;
+    }
 }
 
