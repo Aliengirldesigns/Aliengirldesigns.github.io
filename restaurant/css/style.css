@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+#navbar {
+    background-color: #F3F3CF;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 300px;
+    display: block;
+    margin-left: 24px;
+}
