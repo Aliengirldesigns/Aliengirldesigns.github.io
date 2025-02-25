@@ -1,8 +1,9 @@
+@import url("https://use.typekit.net/fla6hmx.css");
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: "brother-1816", sans-serif;
     margin: 0px;
 }
 #navbar {
@@ -39,18 +40,19 @@ body {
     padding-top: 100px;
 }
 #hero h2 {
-    font-size: 36px;
-    margin-bottom: 36px;
+    font-size: 48px;
+    margin-bottom: 72px;
 }
 #hero a {
-    font-size: 18px;
+    font-size: 17px;
     display: block;
-    width: 250px;
+    width: 200px;
     background-color: rgb(44, 168, 94);
     color: #ffffff;
     text-decoration: none;
-    padding: 24px;
+    padding: 18px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 36px;
+    font-family: brother-1816-printed, sans-serif;
 }
