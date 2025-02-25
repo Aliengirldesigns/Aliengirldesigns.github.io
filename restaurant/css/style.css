@@ -47,12 +47,52 @@ body {
     font-size: 17px;
     display: block;
     width: 200px;
-    background-color: rgb(44, 168, 94);
+    background-color: #ADBC38;
     color: #ffffff;
     text-decoration: none;
     padding: 18px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 36px;
+    font-family: brother-1816-printed, sans-serif;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background-color: #666633;
+    padding: 24px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+.side-by-side .text-container a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 48px;
     font-family: brother-1816-printed, sans-serif;
 }
