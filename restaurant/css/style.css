@@ -123,4 +123,47 @@ body {
 .menu p {
     font-family: brother-1816-printed, sans-serif;
 }
+#outer-layout {
+    display: grid;
+    grid-template-columns: 1fr 900px 1fr;
+    grid-template-areas: 
+        ". content-area .";
+}
+#inner-layout {
+    grid-area: content-area;
+    display: flex;
+}
+#column-1 {
+    background-color: white;
+    padding: 0px 12px;
+    flex: 2;
+}
+#column-2 {
+    background-color: white;
+    padding: 0px 12px;
+    flex: 1;
+}
+#column-3 {
+    background-color: white;
+    padding: 0px 12px;
+    flex: 1;
+}
+#inner-layout img {
+    margin-top: 24px;
+    width: 100%;
+}
+#inner-layout h2 {
+    font-size: 24px;
+    color: #666633;
+}
+#inner-layout h3 {
+    border-bottom: 1.5px solid #888888;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+    color: #ADBC38;
+}
+#inner-layout p {
+    margin-top: 12px;
+}
+
 
