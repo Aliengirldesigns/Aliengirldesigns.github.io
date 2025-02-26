@@ -7,23 +7,21 @@ body {
     margin: 0px;
 }
 #navbar {
+    height: 75px;
     background-color: #F3F3CF;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 #navbar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 24px;
-    font-size: 18px;
-}
-#navbar #logo {
-    margin-right: auto;
+    padding: 12px 24px;
+    font-size: 17px;
+    font-family: brother-1816-printed, sans-serif;
 }
 #navbar #logo img {
-    width: 300px;
-    display: block;
-    margin-left: 24px;
+    width: 90px;
 }
 #hero {
     background-image: url("../images/hero.jpg");
@@ -61,7 +59,6 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
-
 #main-section {
     background-color: #666633;
     padding: 24px;
@@ -76,23 +73,54 @@ body {
 }
 .side-by-side .text-container {
     flex: 1;
-    padding: 36px;
+    padding: 85px;
+    color: #F3F3CF;
+}
+.side-by-side p {
+    color: black;
+    margin-bottom: 100px;
+    width: 350px;
 }
 .side-by-side .image-container img {
     width: 100%;
     border-radius: 50%;
+    box-shadow: 4px 4px 4px #0004;
 }
 .side-by-side .text-container h3 {
     font-size: 48px;
 }
 .side-by-side .text-container a {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    width: 200px;
+    text-align: center;
     background-color: black;
-    color: white;
-    padding: 12px 24px;
+    color: #F3F3CF;
+    padding: 18px;
     border-radius: 48px;
     font-family: brother-1816-printed, sans-serif;
 }
+#footer {
+    background-color: #F3F3CF;
+    padding: 48px 0px;
+}
+#footer a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+#footer-columns-navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0px auto;
+    gap: 72px;
+    color: black;
+    max-width: 800px;
+    text-align: center;
+}
+.menu p {
+    font-family: brother-1816-printed, sans-serif;
+}
+
