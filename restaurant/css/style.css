@@ -21,7 +21,7 @@ body {
     font-family: brother-1816-printed, sans-serif;
 }
 #navbar #logo img {
-    width: 90px;
+    width: 75px;
 }
 #hero {
     background-image: url("../images/hero.jpg");
@@ -68,7 +68,8 @@ body {
 }
 .side-by-side {
     display: flex;
-    align-items: center;
+    align-items: left;
+    gap: 24px;
     margin: 48px 0px;
 }
 .side-by-side .image-container {
@@ -76,31 +77,32 @@ body {
 }
 .side-by-side .text-container {
     flex: 1;
-    padding: 85px;
     color: #F3F3CF;
 }
 .side-by-side p {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 100px;
-    width: 350px;
+    width: 300px;
+    font-size: 14px;
 }
 .side-by-side .image-container img {
-    width: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 4px 4px 4px #0004;
 }
 .side-by-side .text-container h3 {
-    font-size: 48px;
+    font-size: 36px;
 }
 .side-by-side .text-container a {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     display: block;
-    width: 200px;
+    width: 150px;
     text-align: center;
     background-color: black;
-    color: #F3F3CF;
+    color: #ffffff;
     padding: 18px;
     border-radius: 48px;
     font-family: brother-1816-printed, sans-serif;
