@@ -137,6 +137,7 @@ body {
 #inner-layout {
     grid-area: content-area;
     display: flex;
+    gap: 48px;
 }
 #column-1 {
     background-color: white;
@@ -154,7 +155,7 @@ body {
     flex: 1;
 }
 #inner-layout img {
-    margin-top: 24px;
+    padding: 12px 0px;
     width: 100%;
 }
 #inner-layout h2 {
@@ -162,13 +163,22 @@ body {
     color: #666633;
 }
 #inner-layout h3 {
-    border-bottom: 1.5px solid #888888;
+    border-bottom: 1.5px solid #535050;
     padding-bottom: 4px;
     margin-bottom: 0px;
     color: #ADBC38;
 }
-#inner-layout p {
-    margin-top: 12px;
+#inner-layout h4 {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+#inner-layout #featured {
+    background-color: #66663396;
+    padding: 24px;
+    color: #ffffff;
+    h3{
+        color: #666633;
+    }
 }
 
 
