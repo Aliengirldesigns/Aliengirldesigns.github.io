@@ -164,20 +164,24 @@ body {
 }
 #inner-layout h3 {
     border-bottom: 1.5px solid #535050;
-    padding-bottom: 4px;
-    margin-bottom: 0px;
     color: #ADBC38;
 }
 #inner-layout h4 {
-    font-size: 18px;
     margin-bottom: -10px;
+    letter-spacing: 12px;
+    font-size: 16px;
 }
 #inner-layout #featured {
+    font-size: 18px;
+    margin-bottom: 25px;
     background-color: #66663396;
-    padding: 24px;
+    padding: 12px 24px;
     color: #ffffff;
     h3{
         color: #666633;
+    }
+    p {
+        font-size: 14px;
     }
 }
 
