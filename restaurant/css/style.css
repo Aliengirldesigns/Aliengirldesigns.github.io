@@ -55,6 +55,11 @@ body {
     border-radius: 36px;
     font-family: brother-1816-printed, sans-serif;
 }
+#hero a:hover {
+    background-color: #666633;
+    color: black;
+    transition: 0.7s;
+}
 .single-column {
     min-width: 600px;
     max-width: 1200px;
@@ -117,6 +122,11 @@ body {
     border-radius: 48px;
     font-family: brother-1816-printed, sans-serif;
 }
+.side-by-side .text-container a:hover {
+    background-color: rgb(35, 33, 33);
+    color: rgb(210, 206, 206);
+    transition: 0.7s;
+}
 #footer {
     background-color: #F3F3CF;
     padding: 48px 0px;
@@ -134,6 +144,9 @@ body {
     color: black;
     max-width: 800px;
     text-align: center;
+}
+#footer #copy {
+    font-size: 8px;
 }
 .menu p {
     font-family: brother-1816-printed, sans-serif;
@@ -262,6 +275,20 @@ body {
     #footer-columns-navbar {
         grid-template-columns: 1fr;
         gap: 25px;
+    }
+    #outer-layout {
+        grid-template-columns: 1fr;
+    }
+    #inner-layout {
+        display: grid;
+        gap: 24px;
+        padding: 12px;
+        margin-top: 275px;
+    }
+    #hero a {
+        font-size: 12px;
+        padding: 14px;
+        width: 110px;
     }
 }
 
